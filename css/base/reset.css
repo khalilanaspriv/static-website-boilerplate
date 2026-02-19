@@ -29,7 +29,7 @@ body {
 
   background-color: rgb(var(--color-primary-bg));
 
-  min-height: 100vh;
+  min-height: 100dvh;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
