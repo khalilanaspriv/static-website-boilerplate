@@ -1,7 +1,6 @@
 .footer {
   background-color: rgb(var(--color-secondary-bg));
 
-  margin-top: auto;
   padding-block: var(--spacing-xl);
 
   border-top: var(--border-width-normal) solid rgb(var(--color-border));

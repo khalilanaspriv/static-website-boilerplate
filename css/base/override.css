@@ -66,3 +66,7 @@
   color: rgb(var(--color-primary-text)); 
   border-color: transparent;
 }
+
+.main {
+  flex: 1;
+}
