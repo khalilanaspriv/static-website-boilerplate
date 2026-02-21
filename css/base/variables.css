@@ -19,10 +19,11 @@
   --spacing-xl: 2rem;
   --spacing-xxl: 3rem;
 
-  /* Border Widths */
+  /* Widths */
   --border-width-thin: 1px;
   --border-width-normal: 2px;
   --border-width-thick: 4px;
+  --container-width: 1200px;
 
   /* Radiuses */
   --radius-xxs: 2px;

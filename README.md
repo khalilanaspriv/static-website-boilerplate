@@ -49,6 +49,13 @@ D:.
 * I made sure to make the navbar SEO friendly by using semantic tags such as header, nav or ul.
 * I used the established CSS variables in my navbar.css file to keep the UI consistent.
 * I wrote two JS functions to handle theme toggle and hamburger menu openings. Made sure to make it fast and reliable to avoid getting flashes on page reload. Used local storage to remember the user's preference.
+### Footer:
+* I started by adding the HTML footer elements I needed such as the copyright text and the social icons.
+* I added some CSS to make the footer stick to the bottom of the page even when there is no content in the body.
+* I wrote a JS function for the footer to update the footer copyright year automatically, making the website boilerplate always up-to-date without having to change it manually.
+* I added a couple of popular social media icons that suit all kinds of businesses/ngos.
+* I made sure to use accessibility tags in my HTML such as aria-label for screen readers. I also used semantic tags for SEO such as nav or footer.
+* I made sure to make the social media links open in a new tab for UX reasons.
 
 ## Issues Encountered
 * Breakpoints: I tried to use variables for the breakpoints in the media queries to make it clear and easy to use, but I finally learned online that you can't really use variables in media queries. (I later on found that this is possible but not with vanilla CSS).
@@ -56,6 +63,7 @@ D:.
 * Transitions: When the theme changes, it creates a flash issue on all elements, so I decided to priotize a stable working UI by removing transition from the website, with plans to implement them in the near future.
 * Navbar Alignment: It took me some time to learn about positioning in css and the different attributes I need in order to make it look good.
 * Default Theme: I didn't know how to check the user's theme preference on page reload (dark mode or light mode). After a quick research on Google I figured that I needed to use window.matchMedia().
+* Footer Layout: At first, I struggled to make the footer stick to the very bottom of the page. After some debugging, I added the display flex property to the body tag with flex direction set to column, then I added margin-top auto to the footer which made it stick to the bottom.
 
 ## Future Enhancements and Fixes
 * [ ] Add transitions.
