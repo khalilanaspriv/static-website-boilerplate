@@ -63,7 +63,7 @@ D:.
 * Transitions: When the theme changes, it creates a flash issue on all elements, so I decided to priotize a stable working UI by removing transition from the website, with plans to implement them in the near future.
 * Navbar Alignment: It took me some time to learn about positioning in css and the different attributes I need in order to make it look good.
 * Default Theme: I didn't know how to check the user's theme preference on page reload (dark mode or light mode). After a quick research on Google I figured that I needed to use window.matchMedia().
-* Footer Layout: At first, I struggled to make the footer stick to the very bottom of the page. After some debugging, I added the display flex property to the body tag with flex direction set to column, then I added margin-top auto to the footer which made it stick to the bottom.
+* Footer Layout: At first, I struggled to make the footer stick to the very bottom of the page. After some debugging, I added the display flex property to the body tag with flex direction set to column, then I added flex 1 to the main class which made it stick to the bottom.
 
 ## Future Enhancements and Fixes
 * [ ] Add transitions.
