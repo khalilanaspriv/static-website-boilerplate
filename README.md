@@ -56,6 +56,8 @@ D:.
 * I added a couple of popular social media icons that suit all kinds of businesses/ngos.
 * I made sure to use accessibility tags in my HTML such as aria-label for screen readers. I also used semantic tags for SEO such as nav or footer.
 * I made sure to make the social media links open in a new tab for UX reasons.
+### Comments:
+* I added some comments in order to facilitate changing the different fields for the website.
 
 ## Issues Encountered
 * Breakpoints: I tried to use variables for the breakpoints in the media queries to make it clear and easy to use, but I finally learned online that you can't really use variables in media queries. (I later on found that this is possible but not with vanilla CSS).
@@ -64,6 +66,7 @@ D:.
 * Navbar Alignment: It took me some time to learn about positioning in css and the different attributes I need in order to make it look good.
 * Default Theme: I didn't know how to check the user's theme preference on page reload (dark mode or light mode). After a quick research on Google I figured that I needed to use window.matchMedia().
 * Footer Layout: At first, I struggled to make the footer stick to the very bottom of the page. After some debugging, I added the display flex property to the body tag with flex direction set to column, then I added flex 1 to the main class which made it stick to the bottom.
+* SEO Score: After running a lighthouse test in developer tools, I got an 76 in SEO score. After the addition of meta tags in the head of the HTML file, I managed to get a 100 score in the SEO section of the lighthouse test, ensuring that the website shows up in the first pages of the Google search engine.
 
 ## Future Enhancements and Fixes
 * [ ] Add transitions.
