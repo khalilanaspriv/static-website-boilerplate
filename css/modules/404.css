@@ -1,13 +1,9 @@
-/* ERROR PAGE MODULE */
-
 .error-page {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* .main ALREADY HAS FLEX: 1, ADDING PADDING FOR MOBILE */
   padding: var(--spacing-xl);
   text-align: center;
-  background-color: rgb(var(--color-primary-bg));
 }
 
 .error-wrapper {
@@ -15,12 +11,8 @@
 }
 
 .error-code {
-  font-size: clamp(6rem, 20vw, 12rem);
+  font-size: clamp(6rem, 7vw, 10rem);
   color: rgb(var(--color-primary-accent));
-  font-family: var(--font-primary);
-  line-height: 1;
-  margin: 0;
-  font-weight: 800;
 }
 
 .error-heading {
