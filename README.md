@@ -20,19 +20,16 @@ D:.
 │
 ├───assets
 │   ├───documents
-│   │
 │   ├───images
-│   │
+│   ├───favicons
 │   └───videos
 │
 ├───css
 │   ├───base
-│   │
 │   └───modules
 │
 └───js
     ├───base
-    │
     └───modules
 ```
 
