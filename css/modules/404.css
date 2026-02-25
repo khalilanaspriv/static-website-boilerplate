@@ -1,0 +1,37 @@
+/* ERROR PAGE MODULE */
+
+.error-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* .main ALREADY HAS FLEX: 1, ADDING PADDING FOR MOBILE */
+  padding: var(--spacing-xl);
+  text-align: center;
+  background-color: rgb(var(--color-primary-bg));
+}
+
+.error-wrapper {
+  max-width: 600px;
+}
+
+.error-code {
+  font-size: clamp(6rem, 20vw, 12rem);
+  color: rgb(var(--color-primary-accent));
+  font-family: var(--font-primary);
+  line-height: 1;
+  margin: 0;
+  font-weight: 800;
+}
+
+.error-heading {
+  font-size: var(--fontsize-xxl);
+  color: rgb(var(--color-primary-text));
+  margin-top: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.error-desc {
+  font-size: var(--fontsize-md);
+  color: rgb(var(--color-secondary-text));
+  margin-bottom: var(--spacing-xl);
+}
